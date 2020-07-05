@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*===================================
+
+Custom Styles
+
+====================================*/
+
+body{
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+.container{
+    background: hsla(0,100%,74%, 0.9) url('/assignment1/assets/media/bg-intro-desktop.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+
+.col-1{
+    margin: 8%;
+    flex: 0 1 42%;
+
+    
+}
+
+.col-1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.0em;
+    padding-bottom: 20px;
+    color: white;
+
+}
+.col-1 p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: white;
+   
+}
+
+
+
+
+
+
+
+.col-2{
+    flex: 0 2 60%;
+    margin-top: 5%;
+    
+   
+   
+}
+.form-cn{
+    background-color:white;
+   height: 490px;
+    margin-top: 5%;
+    width: 550px;
+    padding: 50px;
+    border-radius: 10px;
+     box-shadow: 0 7px 5px 0  rgba(48, 33, 33, 0.411);
+   
+}
+.form{
+    width: 100%;
+    height: 345px;
+  
+  
+}
+.form input{
+   
+   width: 100%;
+   height: 50px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+    
+  
+
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid black;
+}
+
+
+.form-cn .btn{
+    background-color: #53CC8A;
+    color: white;
+    border:none;
+    display: inline-block;
+    width: 100%;
+    padding: 18px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 16px;
+    
+}
+
+::placeholder{
+    padding-left: 15px;
+    color: gray;
+    font-weight: 900;
+}
+.form-cn p{
+    color:gray;
+    font-size: 12px;
+    text-align: center;
+}
+.form-cn a{
+    text-decoration: none;
+    color: red;
+    padding-left: 5px;
+}
+
+.promotion-btn{
+    text-decoration: none;
+    color: white;
+    background-color:#5C54A3;
+    text-align: center;
+    width: 550px;
+    display: inline-block;
+    padding: 16px 25px;
+    border-radius: 10px;
+    color: lightgray;
+    box-shadow: 0 7px 5px 0 rgba(48, 33, 33, 0.411);
+   
+   
+}
+.promotion-btn strong{
+    font-weight: 700;
+    color: white;
+}
